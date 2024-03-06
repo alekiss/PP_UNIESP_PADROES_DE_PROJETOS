@@ -1,0 +1,23 @@
+{
+  "name": "pp_uniesp_padroes_de_projetos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekiss/PP_UNIESP_PADROES_DE_PROJETOS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alekiss/PP_UNIESP_PADROES_DE_PROJETOS/issues"
+  },
+  "homepage": "https://github.com/alekiss/PP_UNIESP_PADROES_DE_PROJETOS#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
