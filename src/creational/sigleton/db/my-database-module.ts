@@ -7,9 +7,8 @@ export const MyDatabaseModule = {
     users.push(user);
   },
 
-  remove(index: number): void {
-    users.splice(index, 1);
-  },
+   //Fazer função para remover usuário
+
 
   show(): void {
     for (const user of users) {
