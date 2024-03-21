@@ -18,7 +18,9 @@ export class MyDatabaseClassic {
     this.users.push(user);
   }
 
-  //Fazer função para remover usuário
+  remove(index: number): void {
+    this.users.splice(index, 1);
+  }
 
   show(): void {
     for (const user of this.users) {

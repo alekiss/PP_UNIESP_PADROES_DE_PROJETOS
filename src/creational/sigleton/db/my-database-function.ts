@@ -8,8 +8,9 @@ export const MyDatabaseFunction = (function () {
       users.push(user);
     },
 
-      //Fazer função para remover usuário
-
+    remove(index: number): void {
+      users.splice(index, 1);
+    },
 
     show(): void {
       for (const user of users) {
